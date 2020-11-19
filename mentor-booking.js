@@ -32,16 +32,10 @@ const bookings = [];
  * @return {Array} Lista de mentores o mentoras
  */
 
-const getMentors = () => {
+const getMentors = () =>  {
+  return users.filter(user => user.rol === 'MENTOR');
+};
 
-  const mentorsList = [];
-  users.forEach((user) => {
-    if(user.rol === 'MENTOR'){
-      mentorsList.push(user);
-    }
-  });
-  return mentorsList;
-}
 /**
  * Devuelve un mentor a partir de su "id"
  * @return {Mentor} Objeto con la informacion del mentor
