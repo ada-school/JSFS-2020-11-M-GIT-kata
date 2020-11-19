@@ -33,7 +33,7 @@ const bookings = [];
  */
 
 const getMentors = () => {
-  // TODO 1
+
   const mentorsList = [];
   users.forEach((user) => {
     if(user.rol === 'MENTOR'){
