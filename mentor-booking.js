@@ -25,9 +25,9 @@ const bookings = [];
  * Devuelve una lista de mentores o mentoras presentes en la lista de usuarios.
  * @return {Array} Lista de mentores o mentoras
  */
-export const getMentors = () => {
+export function find_mentors() {
   // TODO 1
-};
+}
 
 /**
  * Devuelve un mentor a partir de su "id"
@@ -39,7 +39,7 @@ export const getMentors = () => {
  *    username: "ada@ada-school.org",
  * }
  */
-export const getMentorById = (mentorId) => {
+export const find_mentor_by_id = (mentor_Id) => {
   // TODO 2
 };
 
@@ -47,7 +47,7 @@ export const getMentorById = (mentorId) => {
  * Agrega un mentor a la lista de bookings
  * @return {Array} Lista de bookings con el mentor agregado como primer selemento
  */
-export const bookMentor = (mentorId) => {
+export const bookA_Mentor = (mentor_Id) => {
   // TODO 3
 };
 
