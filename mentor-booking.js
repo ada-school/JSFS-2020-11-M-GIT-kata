@@ -17,6 +17,12 @@ const users = [
     username: "mentor2@ada-school.org",
     role: "MENTOR",
   },
+  {
+    id: 4,
+    name: "Student",
+    username: "student@ada-school.org",
+    rol: "STUDENT",
+  },
 ];
 
 const bookings = [];
@@ -25,8 +31,9 @@ const bookings = [];
  * Devuelve una lista de mentores o mentoras presentes en la lista de usuarios.
  * @return {Array} Lista de mentores o mentoras
  */
-const getMentors = () => {
-  // TODO 1
+
+const getMentors = () =>  {
+  return users.filter(user => user.rol === 'MENTOR');
 };
 
 /**
