@@ -50,8 +50,3 @@ export const getMentorById = (mentorId) => {
 export const bookMentor = (mentorId) => {
   // TODO 3
 };
-
-/**
- * ⛔️ ZONA DE NO EDICIÓN ⛔️
- * Por favor no editar esta zona
- */
