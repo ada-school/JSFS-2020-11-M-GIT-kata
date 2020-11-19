@@ -48,7 +48,13 @@ export const find_mentor_by_id = (mentor_Id) => {
  * @return {Array} Lista de bookings con el mentor agregado como primer selemento
  */
 export const bookA_Mentor = (mentor_Id) => {
-  // TODO 3
+  for (let i=0 ; i < users.length ; i++) {
+    if (users[i].id === mentor_Id) {
+      bookings.unshift(users[i]);
+      break;
+    }
+  }
+  return bookings;
 };
 
 /**
