@@ -25,7 +25,7 @@ const bookings = [];
  * Devuelve una lista de mentores o mentoras presentes en la lista de usuarios.
  * @return {Array} Lista de mentores o mentoras
  */
-export const getMentors = () => {
+const getMentors = () => {
   // TODO 1
 };
 
@@ -39,7 +39,7 @@ export const getMentors = () => {
  *    username: "ada@ada-school.org",
  * }
  */
-export const getMentorById = (mentorId) => {
+const getMentorById = (mentorId) => {
   // TODO 2
 };
 
