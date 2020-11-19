@@ -3,19 +3,19 @@ const users = [
     id: 1,
     name: "Ada",
     username: "ada@ada-school.org",
-    rol: "MENTOR",
+    role: "MENTOR",
   },
   {
     id: 2,
     name: "Mentor",
     username: "mentor@ada-school.org",
-    rol: "MENTOR",
+    role: "MENTOR",
   },
   {
     id: 3,
     name: "Mentor 2",
     username: "mentor2@ada-school.org",
-    rol: "MENTOR",
+    role: "MENTOR",
   },
 ];
 
@@ -25,9 +25,9 @@ const bookings = [];
  * Devuelve una lista de mentores o mentoras presentes en la lista de usuarios.
  * @return {Array} Lista de mentores o mentoras
  */
-export function find_mentors() {
+export const getMentors = () => {
   // TODO 1
-}
+};
 
 /**
  * Devuelve un mentor a partir de su "id"
@@ -39,7 +39,7 @@ export function find_mentors() {
  *    username: "ada@ada-school.org",
  * }
  */
-export const find_mentor_by_id = (mentor_Id) => {
+export const getMentorById = (mentorId) => {
   // TODO 2
 };
 
@@ -47,7 +47,7 @@ export const find_mentor_by_id = (mentor_Id) => {
  * Agrega un mentor a la lista de bookings
  * @return {Array} Lista de bookings con el mentor agregado como primer selemento
  */
-export const bookA_Mentor = (mentor_Id) => {
+export const bookMentor = (mentorId) => {
   // TODO 3
 };
 
